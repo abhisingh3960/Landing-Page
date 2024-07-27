@@ -16,6 +16,7 @@ header{
     color: black;
     margin-top: 5px;
     border-radius: 2px;
+    position: sticky;
 }
 .logo{
     margin-top: 10px;
