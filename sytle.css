@@ -1,0 +1,136 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #b67515fa;
+    text-align: center;
+    color: black;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+.logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    cursor: pointer;
+    font-weight: 100;
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 15px;
+}
+.Menu_item{
+    justify-content:space-evenly;
+    padding: 5px;
+}
+.upper_mid{
+    width: 93%;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    color: white;font-family: sans-serif;
+}
+.left{
+    margin-left: 30px;
+}
+#loginbtn{
+    border: 1px solid #f0b70cfa;
+    background-color: #f0b70cfa;
+    border-radius: 20px;
+    width:150px;
+    height: 30px;
+    cursor: pointer;
+}
+img{
+    margin-top: 25px;
+    margin-left:40px;
+    height: 200px;
+    width: auto;
+    cursor: pointer;
+    
+}
+/* contact us */
+
+h2{
+    margin-left: 40px;
+    padding: 10px;
+    color: #f2bb08;
+}
+#name ,#city , #number ,#email{
+    border: 1px solid #f2bb08;
+    border-radius: 20px;
+    background-color: black;
+    color:#f2bb08 ;
+    padding: 10px;
+    margin: 5px 10px 5px 10px;
+    margin-left: 40px;
+}
+::placeholder {
+    color:#f8d86e;
+    opacity: 1; /* Firefox */
+  }
+  
+#name ,#email{
+    width: 93%;
+}
+#number , #city{
+    width:44%
+}
+#abc{
+    background-color: #f0b70cfa;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    margin-left: 47%;
+    margin-right: 53%;
+    border: 1px solid #f0b70cfa;
+    border-radius: 20px;
+    margin-top: 10px; 
+    cursor: pointer; 
+    
+}
+
+/* Table Decoration paart */
+table{
+    border-collapse: collapse;
+    width: 93%;
+    margin: 10px 10px 10px 10px;
+    margin-right: 20px;
+    margin-left: 40px;
+
+}
+.Table_part{
+    margin-top: 40px;
+    justify-content: center;;
+    align-items: center;
+    margin-bottom: 40px;
+  
+}
+th, td{
+    border: 1px solid #766223 ;
+    text-align: center;
+    color: #f2bb08;
+    padding: 15px;
+}
+tfoot{
+    background-color:#b67515fa;
+    color: black;
+    cursor: pointer;
+}
+tfoot td{
+    color: black;
+}
+table{
+    margin-bottom: 20px;
+}
